@@ -9,5 +9,5 @@ foreach($_POST as $Variable => $value) {
  }
   fwrite($handle,"\r\n");
   fclose($handle);
-  exit ;
+  exit;
 ?>
